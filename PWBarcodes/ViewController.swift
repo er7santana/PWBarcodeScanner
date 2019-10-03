@@ -52,7 +52,7 @@ extension ViewController: BarcodeScannerCodeDelegate {
     
     DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
         
-        controller.resetWithError(message: "Product not found")
+//        controller.resetWithError(message: "Product not found")
         controller.dismiss(animated: true, completion: nil)
     }
   }
