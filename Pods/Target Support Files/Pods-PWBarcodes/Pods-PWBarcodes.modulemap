@@ -1,0 +1,6 @@
+framework module Pods_PWBarcodes {
+  umbrella header "Pods-PWBarcodes-umbrella.h"
+
+  export *
+  module * { export * }
+}
